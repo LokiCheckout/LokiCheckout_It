@@ -26,7 +26,11 @@
     ],
     "components": [],
     "config": [],
-    "tests": [],
+    "tests": {
+        "unit": 0,
+        "integration": 2,
+        "functional": 0
+    },
     "module_name": "LokiCheckout_It",
     "composer_name": "loki-checkout/magento2-it",
     "php_versions": [

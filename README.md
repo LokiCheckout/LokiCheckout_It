@@ -8,7 +8,7 @@
 <!-- badges.specs.end -->
 
 
-**This Magento 2 module is an add-on package to the LokiCheckout.**
+**This Magento 2 module is an add-on package for adding some settings that feel good for the Italian market. Note that it is not required. It changes a couple of field labels, adds placeholders and input masks, and adds a grid `italy` variation of the default grid layout. All of this can also be defined in a custom project-specific module.**
 
 ## Installation
 Install this package via composer:
