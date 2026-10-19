@@ -1,5 +1,5 @@
 <script>
-    LokiComponentExtender.add('ItVatIdMaskMixin', () => {
+    LokiComponentExtender.extend(['LokiCheckoutComponent', 'LokiCheckoutVatEuIdFieldComponent'], 'ItVatIdMaskMixin', () => {
         return {
             itVatIdMask(input) {
                 return /^[A-Z]/i.test(input)
