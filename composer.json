@@ -4,8 +4,7 @@
     "description": "Italian settings for LokiCheckout",
     "type": "magento2-module",
     "keywords": [
-        "loki-checkout",
-        "loki-checkout-category-country"
+        "loki-checkout"
     ],
     "require": {
         "magento/framework": "^103.0",
@@ -23,8 +22,5 @@
         "psr-4": {
             "LokiCheckout\\It\\": ""
         }
-    },
-    "extra": {
-        "label": "Italian Settings"
     }
 }
