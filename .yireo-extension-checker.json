@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "Loki_Components",
+    "loki/magento2-components"
+  ]
+}
