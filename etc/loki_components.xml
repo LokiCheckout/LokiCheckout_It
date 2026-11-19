@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Loki_Components:etc/loki_components.xsd">
+    <component name="loki-checkout.shipping.address.country_id">
+        <target name="loki-checkout.shipping.address.telephone"/>
+    </component>
+
+    <component name="loki-checkout.billing.address.country_id">
+        <target name="loki-checkout.billing.address.telephone"/>
+    </component>
+</components>

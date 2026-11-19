@@ -39,6 +39,12 @@
             </arguments>
         </referenceBlock>
 
+        <referenceBlock name="loki-checkout.billing.address.telephone">
+            <arguments>
+                <argument name="placeholder" xsi:type="string">+39 312 345 6789</argument>
+            </arguments>
+        </referenceBlock>
+
         <referenceBlock name="loki-checkout.billing.address.vat_id">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">VAT number</argument>
