@@ -2,9 +2,11 @@
 <components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Loki_Components:etc/loki_components.xsd">
     <component name="loki-checkout.shipping.address.country_id">
         <target name="loki-checkout.shipping.address.telephone"/>
+        <target name="loki-checkout.shipping.address.vat_id"/>
     </component>
 
     <component name="loki-checkout.billing.address.country_id">
         <target name="loki-checkout.billing.address.telephone"/>
+        <target name="loki-checkout.billing.address.vat_id"/>
     </component>
 </components>

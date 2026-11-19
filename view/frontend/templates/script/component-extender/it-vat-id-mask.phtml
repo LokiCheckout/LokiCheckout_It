@@ -2,9 +2,15 @@
     LokiComponentExtender.extend(['LokiCheckoutComponent', 'LokiCheckoutVatEuIdFieldComponent'], 'ItVatIdMaskMixin', () => {
         return {
             itVatIdMask(input) {
-                return /^[A-Z]/i.test(input)
-                    ? 'aa99999999999'
-                    : '99999999999';
+                if (/^\d/.test(input)) {
+                    return '99999999999';
+                }
+
+                if (/^I(T|$)/i.test(input)) {
+                    return 'aa99999999999';
+                }
+
+                return 'aaaaaa**a**a***a';
             }
         }
     }, {when: component => component.fieldName === 'vat_id'});

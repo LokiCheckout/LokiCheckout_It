@@ -47,7 +47,7 @@
 
         <referenceBlock name="loki-checkout.billing.address.vat_id">
             <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">VAT number</argument>
+                <argument name="field_label" xsi:type="string" translate="true">VAT number or tax code</argument>
                 <argument name="placeholder" xsi:type="string">IT12345678901</argument>
                 <argument name="field_attributes" xsi:type="array">
                     <item name="x-mask:dynamic" xsi:type="string">itVatIdMask</item>
