@@ -8,12 +8,14 @@
         "loki-checkout-category-country"
     ],
     "require": {
-        "magento/framework": "^103.0",
         "loki-checkout/magento2-core": "^2.7.4",
         "loki/magento2-components": "^2.9",
+        "magento/framework": "^103.0",
         "php": ">=8.2 <8.6"
     },
     "require-dev": {
+        "loki-checkout/magento2-functional-tests": "@dev",
+        "loki/magento2-functional-tests": "@dev",
         "phpunit/phpunit": "^10.5",
         "yireo/magento2-integration-test-helper": "~0.0"
     },
